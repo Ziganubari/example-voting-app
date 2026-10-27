@@ -18,7 +18,7 @@ jobs:
       - name: Check worker (.NET)
         run: dotnet build worker
         
-build:
+ build:
   needs: test
   runs-on: ubuntu-latest
   strategy:
