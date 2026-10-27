@@ -1,0 +1,219 @@
+module.eks.module.eks_managed_node_group["default"].data.aws_caller_identity.current: Reading...
+module.eks.module.kms.data.aws_caller_identity.current[0]: Reading...
+module.eks.aws_cloudwatch_log_group.this[0]: Refreshing state... [id=/aws/eks/demo-eks/cluster]
+module.eks.data.aws_iam_policy_document.assume_role_policy[0]: Reading...
+module.eks.data.aws_partition.current[0]: Reading...
+module.eks.module.eks_managed_node_group["default"].data.aws_iam_policy_document.assume_role_policy[0]: Reading...
+module.eks.data.aws_caller_identity.current[0]: Reading...
+module.eks.module.eks_managed_node_group["default"].aws_eks_node_group.this[0] (deposed object 8d7562ab): Refreshing state... [id=demo-eks:default-20261027121056237600000003]
+module.eks.data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=2830595799]
+module.eks.data.aws_partition.current[0]: Read complete after 0s [id=aws]
+module.eks.module.eks_managed_node_group["default"].data.aws_partition.current: Reading...
+data.aws_vpc.default: Reading...
+module.eks.module.eks_managed_node_group["default"].data.aws_iam_policy_document.assume_role_policy[0]: Read complete after 0s [id=2560088296]
+module.eks.aws_iam_role.this[0]: Refreshing state... [id=demo-eks-cluster-20261027101047272400000004]
+module.eks.module.kms.data.aws_partition.current[0]: Reading...
+module.eks.module.eks_managed_node_group["default"].data.aws_partition.current: Read complete after 0s [id=aws]
+module.eks.module.kms.data.aws_partition.current[0]: Read complete after 0s [id=aws]
+module.eks.data.aws_iam_policy_document.custom[0]: Reading...
+module.eks.module.eks_managed_node_group["default"].aws_iam_role.this[0]: Refreshing state... [id=default-eks-node-group-20261027101047092900000001]
+module.eks.data.aws_iam_policy_document.custom[0]: Read complete after 0s [id=513122117]
+module.eks.data.aws_caller_identity.current[0]: Read complete after 0s [id=494945606034]
+module.eks.aws_iam_policy.custom[0]: Refreshing state... [id=arn:aws:iam::494945606034:policy/demo-eks-cluster-20261027101047117500000002]
+module.eks.data.aws_iam_session_context.current[0]: Reading...
+module.eks.data.aws_iam_session_context.current[0]: Read complete after 0s [id=arn:aws:iam::494945606034:user/terraform-user]
+module.eks.module.eks_managed_node_group["default"].data.aws_caller_identity.current: Read complete after 1s [id=494945606034]
+module.eks.module.kms.data.aws_caller_identity.current[0]: Read complete after 1s [id=494945606034]
+module.eks.module.eks_managed_node_group["default"].aws_iam_role_policy_attachment.this["AmazonEC2ContainerRegistryReadOnly"]: Refreshing state... [id=default-eks-node-group-20261027101047092900000001-2026102710105985340000000b]
+module.eks.module.eks_managed_node_group["default"].aws_iam_role_policy_attachment.this["AmazonEKSWorkerNodePolicy"]: Refreshing state... [id=default-eks-node-group-20261027101047092900000001-20261027101058683100000009]
+module.eks.module.eks_managed_node_group["default"].aws_iam_role_policy_attachment.this["AmazonEKS_CNI_Policy"]: Refreshing state... [id=default-eks-node-group-20261027101047092900000001-2026102710105946770000000a]
+module.eks.aws_iam_role_policy_attachment.this["AmazonEKSClusterPolicy"]: Refreshing state... [id=demo-eks-cluster-20261027101047272400000004-20261027101058677900000008]
+module.eks.module.kms.data.aws_iam_policy_document.this[0]: Reading...
+module.eks.aws_iam_role_policy_attachment.this["AmazonEKSVPCResourceController"]: Refreshing state... [id=demo-eks-cluster-20261027101047272400000004-20261027101058276100000006]
+module.eks.aws_iam_role_policy_attachment.custom[0]: Refreshing state... [id=demo-eks-cluster-20261027101047272400000004-20261027101058622200000007]
+module.eks.module.kms.data.aws_iam_policy_document.this[0]: Read complete after 0s [id=3108824937]
+module.eks.module.kms.aws_kms_key.this[0]: Refreshing state... [id=905a6206-b8f6-421b-a30f-668f370929c1]
+data.aws_vpc.default: Read complete after 3s [id=vpc-00f548ef2179d92e1]
+data.aws_subnets.default: Reading...
+module.eks.aws_security_group.cluster[0]: Refreshing state... [id=sg-0ce1cdc301c8e671e]
+module.eks.aws_security_group.node[0]: Refreshing state... [id=sg-0b07aa6642af5d983]
+data.aws_subnets.default: Read complete after 0s [id=us-east-1]
+module.eks.aws_security_group_rule.cluster["ingress_nodes_443"]: Refreshing state... [id=sgrule-1592843513]
+module.eks.aws_security_group_rule.node["ingress_self_coredns_tcp"]: Refreshing state... [id=sgrule-2460448559]
+module.eks.aws_security_group_rule.node["ingress_nodes_ephemeral"]: Refreshing state... [id=sgrule-209291398]
+module.eks.aws_security_group_rule.node["ingress_cluster_9443_webhook"]: Refreshing state... [id=sgrule-1218732522]
+module.eks.aws_security_group_rule.node["ingress_cluster_4443_webhook"]: Refreshing state... [id=sgrule-4128967062]
+module.eks.aws_security_group_rule.node["ingress_self_coredns_udp"]: Refreshing state... [id=sgrule-922277056]
+module.eks.aws_security_group_rule.node["egress_all"]: Refreshing state... [id=sgrule-4255603385]
+module.eks.aws_security_group_rule.node["ingress_cluster_kubelet"]: Refreshing state... [id=sgrule-1456345471]
+module.eks.aws_security_group_rule.node["ingress_cluster_6443_webhook"]: Refreshing state... [id=sgrule-1062825472]
+module.eks.aws_security_group_rule.node["ingress_cluster_443"]: Refreshing state... [id=sgrule-554464303]
+module.eks.aws_security_group_rule.node["ingress_cluster_8443_webhook"]: Refreshing state... [id=sgrule-738546209]
+module.eks.module.kms.aws_kms_alias.this["cluster"]: Refreshing state... [id=alias/eks/demo-eks]
+module.eks.aws_iam_policy.cluster_encryption[0]: Refreshing state... [id=arn:aws:iam::494945606034:policy/demo-eks-cluster-ClusterEncryption2026102710115127470000000c]
+module.eks.aws_iam_role_policy_attachment.cluster_encryption[0]: Refreshing state... [id=demo-eks-cluster-20261027101047272400000004-2026102710115492750000000d]
+module.eks.aws_eks_cluster.this[0]: Refreshing state... [id=demo-eks]
+module.eks.data.tls_certificate.this[0]: Reading...
+module.eks.aws_eks_access_entry.this["cluster_creator"]: Refreshing state... [id=demo-eks:arn:aws:iam::494945606034:user/terraform-user]
+module.eks.time_sleep.this[0]: Refreshing state... [id=2026-10-27T12:10:11Z]
+module.eks.module.eks_managed_node_group["default"].module.user_data.null_resource.validate_cluster_service_cidr: Refreshing state... [id=3347653722220540214]
+module.eks.module.eks_managed_node_group["default"].aws_launch_template.this[0]: Refreshing state... [id=lt-0b31b6078ea7ec536]
+module.eks.aws_eks_access_policy_association.this["cluster_creator_admin"]: Refreshing state... [id=demo-eks#arn:aws:iam::494945606034:user/terraform-user#arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy]
+module.eks.module.eks_managed_node_group["default"].aws_eks_node_group.this[0]: Refreshing state... [id=demo-eks:default-20261027143741330200000001]
+module.eks.data.tls_certificate.this[0]: Read complete after 1s [id=b1b539daa206035ae3c3e28288b0681fa1b462f3]
+module.eks.aws_iam_openid_connect_provider.oidc_provider[0]: Refreshing state... [id=arn:aws:iam::494945606034:oidc-provider/oidc.eks.us-east-1.amazonaws.com/id/7D00FEF32749ED51A2C8875822BCFA1F]
+
+Note: Objects have changed outside of Terraform
+
+Terraform detected the following changes made outside of Terraform since the
+last "terraform apply" which may have affected this plan:
+
+  # module.eks.module.eks_managed_node_group["default"].aws_eks_node_group.this[0] has changed
+  ~ resource "aws_eks_node_group" "this" {
+      + arn                    = "arn:aws:eks:us-east-1:494945606034:nodegroup/demo-eks/default-20261027143741330200000001/88d0bee5-d83c-38a8-b26f-2373f6f82b52"
+        id                     = "demo-eks:default-20261027143741330200000001"
+      + resources              = [
+          + {
+              + autoscaling_groups              = [
+                  + {
+                      + name = "eks-default-20261027143741330200000001-88d0bee5-d83c-38a8-b26f-2373f6f82b52"
+                    },
+                ]
+                # (1 unchanged attribute hidden)
+            },
+        ]
+      + status                 = "CREATE_FAILED"
+        tags                   = {
+            "Name" = "default"
+        }
+        # (7 unchanged attributes hidden)
+
+        # (4 unchanged blocks hidden)
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the
+relevant attributes using ignore_changes, the following plan may include
+actions to undo or respond to these changes.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  - destroy
++/- create replacement and then destroy
+
+Terraform will perform the following actions:
+
+  # module.eks.module.eks_managed_node_group["default"].aws_eks_node_group.this[0] is tainted, so must be replaced
++/- resource "aws_eks_node_group" "this" {
+      ~ ami_type               = "AL2023_x86_64_STANDARD" -> (known after apply)
+      ~ arn                    = "arn:aws:eks:us-east-1:494945606034:nodegroup/demo-eks/default-20261027143741330200000001/88d0bee5-d83c-38a8-b26f-2373f6f82b52" -> (known after apply)
+      ~ capacity_type          = "ON_DEMAND" -> (known after apply)
+      ~ disk_size              = 0 -> (known after apply)
+      ~ id                     = "demo-eks:default-20261027143741330200000001" -> (known after apply)
+      ~ instance_types         = [
+          ~ "t3.medium" -> "t3.small",
+        ]
+      - labels                 = {} -> null
+      ~ node_group_name        = "default-20261027143741330200000001" -> (known after apply)
+      ~ release_version        = "1.37.1-20261023" -> (known after apply)
+      ~ resources              = [
+          - {
+              - autoscaling_groups              = [
+                  - {
+                      - name = "eks-default-20261027143741330200000001-88d0bee5-d83c-38a8-b26f-2373f6f82b52"
+                    },
+                ]
+                # (1 unchanged attribute hidden)
+            },
+        ] -> (known after apply)
+      ~ status                 = "CREATE_FAILED" -> (known after apply)
+        tags                   = {
+            "Name" = "default"
+        }
+        # (6 unchanged attributes hidden)
+
+      ~ launch_template {
+            id      = "lt-0b31b6078ea7ec536"
+          ~ name    = "default-20261027121036096600000001" -> (known after apply)
+            # (1 unchanged attribute hidden)
+        }
+
+      ~ node_repair_config (known after apply)
+
+      ~ update_config {
+          - max_unavailable            = 0 -> null
+            # (1 unchanged attribute hidden)
+        }
+
+        # (2 unchanged blocks hidden)
+    }
+
+  # module.eks.module.eks_managed_node_group["default"].aws_eks_node_group.this[0] (deposed object 8d7562ab) will be destroyed
+  # (left over from a partially-failed replacement of this instance)
+  - resource "aws_eks_node_group" "this" {
+      - ami_type               = "AL2023_x86_64_STANDARD" -> null
+      - arn                    = "arn:aws:eks:us-east-1:494945606034:nodegroup/demo-eks/default-20261027121056237600000003/5ed0bea2-a806-d695-74c9-ab716d6bd297" -> null
+      - capacity_type          = "ON_DEMAND" -> null
+      - cluster_name           = "demo-eks" -> null
+      - disk_size              = 0 -> null
+      - id                     = "demo-eks:default-20261027121056237600000003" -> null
+      - instance_types         = [
+          - "t3.medium",
+        ] -> null
+      - labels                 = {} -> null
+      - node_group_name        = "default-20261027121056237600000003" -> null
+      - node_group_name_prefix = "default-" -> null
+      - node_role_arn          = "arn:aws:iam::494945606034:role/default-eks-node-group-20261027101047092900000001" -> null
+      - release_version        = "1.37.1-20261023" -> null
+      - resources              = [
+          - {
+              - autoscaling_groups              = [
+                  - {
+                      - name = "eks-default-20261027121056237600000003-5ed0bea2-a806-d695-74c9-ab716d6bd297"
+                    },
+                ]
+                # (1 unchanged attribute hidden)
+            },
+        ] -> null
+      - status                 = "CREATE_FAILED" -> null
+      - subnet_ids             = [
+          - "subnet-0206b2785ade7933a",
+          - "subnet-032674cf2391fc864",
+          - "subnet-05ffc2e382f69bdcf",
+        ] -> null
+      - tags                   = {
+          - "Name" = "default"
+        } -> null
+      - tags_all               = {
+          - "Name" = "default"
+        } -> null
+      - version                = "1.37" -> null
+
+      - launch_template {
+          - id      = "lt-0b31b6078ea7ec536" -> null
+          - name    = "default-20261027121036096600000001" -> null
+          - version = "1" -> null
+        }
+
+      - scaling_config {
+          - desired_size = 1 -> null
+          - max_size     = 2 -> null
+          - min_size     = 1 -> null
+        }
+
+      - timeouts {}
+
+      - update_config {
+          - max_unavailable            = 0 -> null
+          - max_unavailable_percentage = 33 -> null
+        }
+    }
+
+Plan: 1 to add, 0 to change, 2 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
