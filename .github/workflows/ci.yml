@@ -34,7 +34,7 @@ jobs:
         run: docker build -t ghcr.io/${{ env.OWNER }}/${{ matrix.service }}:${{ github.sha }} ./${{ matrix.service }}
 
       - name: Scan with Trivy
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@0.35.0
         with:
           image-ref: ghcr.io/${{ env.OWNER }}/${{ matrix.service }}:${{ github.sha }}
           severity: CRITICAL,HIGH
